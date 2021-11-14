@@ -58,7 +58,6 @@ class MyEventHandler(TranscriptResultStreamHandler):
         # This handler can be implemented to handle transcriptions as needed.
         # Here's an example to get started.
         results = transcript_event.transcript.results
-        #print(output_queue)
         if len(results) > 0:
             if not results[0].is_partial:
                 text = results[0].alternatives[0].transcript
