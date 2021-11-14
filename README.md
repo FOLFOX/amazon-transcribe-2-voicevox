@@ -1,6 +1,7 @@
 # amazon-transcribe-2-voicevox
  
 音声入力をAmazon Transcribeに投げて返ってきたテキストを、
+
 [VOICEVOX](https://voicevox.hiroshiba.jp/)に投げて返ってきた音声を再生します。
  
 ## 機能
@@ -18,7 +19,7 @@
 ## 使い方
 ### 準備
 
-1. `AWS_ACCESS_KEY_ID`と`AWS_SECRET_ACCESS_KEY`を環境変数に設定する。
+1. Amazon Transcribeにアクセス可能な`AWS_ACCESS_KEY_ID`と`AWS_SECRET_ACCESS_KEY`を環境変数に設定する。
 2. VOICEVOXを起動しておく。
 
 ### 起動
